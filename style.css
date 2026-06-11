@@ -46,6 +46,8 @@ opacity:.15;
     padding:25px;
     min-height:180px;
     box-shadow:0 0 25px rgba(88,166,255,.15);
+    max-width:700px;
+    margin:0 auto;
 }
 
 #terminal-text{
@@ -242,6 +244,9 @@ section h2{
 
 #commandInput{
     width:100%;
+    max-width:500px;
+    margin:20px auto 0;
+    display:block;
     padding:12px;
     background:#161b22;
     border:1px solid #30363d;
@@ -288,4 +293,26 @@ audio{
 .commit h3{
     color:#3fb950;
     margin-bottom:10px;
+}
+
+
+#declaration{
+    text-align:center;
+}
+
+pre{
+    max-width:700px;
+    margin:0 auto;
+    text-align:left;
+}
+
+.code-block{
+    max-width:700px;
+    margin:20px auto;
+    text-align:left;
+}
+
+button{
+    display:block;
+    margin:20px auto;
 }
