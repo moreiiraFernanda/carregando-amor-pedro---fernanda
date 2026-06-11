@@ -220,3 +220,43 @@ audio{
     width:100%;
     margin-top:20px;
 }
+
+.timeline,
+section{
+    width:100%;
+    margin-top:35px;
+}
+
+.timeline h2,
+section h2{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+.commit{
+    background:#161b22;
+    border-left:4px solid #3fb950;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+}
+
+#commandInput{
+    width:100%;
+    padding:12px;
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:8px;
+    color:white;
+}
+
+#output{
+    margin-top:15px;
+    min-height:40px;
+    color:#58a6ff;
+}
+
+audio{
+    width:100%;
+    margin-top:20px;
+}
