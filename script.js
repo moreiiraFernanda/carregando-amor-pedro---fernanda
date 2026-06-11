@@ -69,15 +69,24 @@ document
 function updateCounter() {
 
     const startDate = new Date("2023-10-22");
-
     const now = new Date();
 
-    const diff = now - startDate;
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+    let days = now.getDate() - startDate.getDate();
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    if(days < 0){
+        months--;
+        days += 30;
+    }
 
-    document.getElementById("loveCounter").innerText =
-        days + " dias ❤️";
+    if(months < 0){
+        years--;
+        months += 12;
+    }
+
+    document.getElementById("loveCounter").innerHTML =
+        `${years} anos, ${months} meses e ${days} dias ❤️`;
 }
 
 updateCounter();
