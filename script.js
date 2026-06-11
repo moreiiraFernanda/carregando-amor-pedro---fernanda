@@ -81,3 +81,35 @@ function updateCounter() {
 }
 
 updateCounter();
+
+const input = document.getElementById("commandInput");
+const output = document.getElementById("output");
+
+input.addEventListener("keypress", function(e){
+
+if(e.key === "Enter"){
+
+const cmd = input.value.toLowerCase();
+
+if(cmd === "love"){
+
+output.innerHTML =
+"Você é meu lugar seguro ❤️";
+
+}
+
+else if(cmd === "future"){
+
+output.innerHTML =
+"Compilando futuro... sucesso!";
+
+}
+
+else if(cmd === "eu te amo"){
+
+output.innerHTML =
+"❤️ Eu também te amo ❤️";
+}
+
+}
+});
