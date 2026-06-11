@@ -53,6 +53,12 @@ document
     .classList
     .remove("hidden");
 
+    const music = document.getElementById("music");
+
+    if (music) {
+        music.play();
+    }
+
     window.scrollTo({
         top: document.body.scrollHeight,
         behavior: "smooth"
