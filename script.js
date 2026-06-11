@@ -68,7 +68,7 @@ document
 
 function updateCounter() {
 
-    const startDate = new Date("2023-22-10");
+    const startDate = new Date("2023-10-22");
 
     const now = new Date();
 
@@ -85,34 +85,39 @@ updateCounter();
 const input = document.getElementById("commandInput");
 const output = document.getElementById("output");
 
-input.addEventListener("keypress", function(e){
+if (input && output) {
 
-if(e.key === "Enter"){
+    input.addEventListener("keypress", function(e){
 
-const cmd = input.value.toLowerCase();
+        if(e.key === "Enter"){
 
-if(cmd === "love"){
+            const cmd = input.value.toLowerCase();
 
-output.innerHTML =
-"Você é meu lugar seguro ❤️";
+            if(cmd === "love"){
+
+                output.innerHTML =
+                "Você é meu lugar seguro ❤️";
+
+            }
+
+            else if(cmd === "future"){
+
+                output.innerHTML =
+                "Compilando futuro... sucesso!";
+
+            }
+
+            else if(cmd === "eu te amo"){
+
+                output.innerHTML =
+                "❤️ Eu também te amo ❤️";
+            }
+
+        }
+
+    });
 
 }
-
-else if(cmd === "future"){
-
-output.innerHTML =
-"Compilando futuro... sucesso!";
-
-}
-
-else if(cmd === "eu te amo"){
-
-output.innerHTML =
-"❤️ Eu também te amo ❤️";
-}
-
-}
-});
 
 const programador = "Pedro";
 const estudanteADS = "Fernanda";
@@ -120,4 +125,4 @@ const estudanteADS = "Fernanda";
 function construirFuturo() {
     return "Juntos";
 }
-Enquanto você transforma ideias em código e eu aprendo a construir sistemas, percebo que estamos desenvolvendo o projeto mais importante das nossas vidas. Um projeto que não precisa de correções, apenas de novas versões cheias de sonhos, conquistas e amor.
+//Enquanto você transforma ideias em código e eu aprendo a construir sistemas, percebo que estamos desenvolvendo o projeto mais importante das nossas vidas. Um projeto que não precisa de correções, apenas de novas versões cheias de sonhos, conquistas e amor.
