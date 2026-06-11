@@ -12,6 +12,7 @@ body{
     display:flex;
     justify-content:center;
     padding:30px;
+   } 
     #matrix{
 position:fixed;
 top:0;
@@ -19,7 +20,7 @@ left:0;
 z-index:-1;
 opacity:.15;
 }
-}
+
 
 .container{
     width:100%;
@@ -149,4 +150,43 @@ border-radius:10px;
 
 .gallery img:hover{
     transform:scale(1.05);
+}
+
+.timeline{
+    margin-top:40px;
+}
+
+.commit{
+    background:#161b22;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+    border-left:4px solid #3fb950;
+}
+
+#commandInput{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#161b22;
+    color:white;
+    border:1px solid #30363d;
+    border-radius:8px;
+}
+
+#output{
+    margin-top:15px;
+    min-height:40px;
+    color:#58a6ff;
+}
+
+audio{
+    margin-top:30px;
+    width:100%;
+}
+
+.counter{
+    margin-bottom:25px;
+    color:#58a6ff;
+    font-size:18px;
 }
