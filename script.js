@@ -1,4 +1,5 @@
 const text = `
+>npm run amor
 
 > Inicializando sistema...
 > Carregando memórias...
@@ -8,10 +9,10 @@ Resultado: 100% compatível ❤️
 
 > Buscando momentos especiais...
 
-✔ Primeira conversa
-✔ Muitas risadas
-✔ Apoio mútuo
-✔ Amor verdadeiro
+✔ Primeira conversa encontrada
+✔ Primeira foto carregada
+✔ Primeira viagem registrada
+✔ Amor verdadeiro detectado
 
 Status final:
 BUILD SUCCESSFUL
