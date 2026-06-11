@@ -1,5 +1,5 @@
 const text = `
->npm run amor
+> npm run amor
 
 > Inicializando sistema...
 > Carregando memórias...
