@@ -1,9 +1,7 @@
 const text = `
 
 > Inicializando sistema...
-
 > Carregando memórias...
-
 > Verificando compatibilidade...
 
 Resultado: 100% compatível ❤️
@@ -11,17 +9,12 @@ Resultado: 100% compatível ❤️
 > Buscando momentos especiais...
 
 ✔ Primeira conversa
-
 ✔ Muitas risadas
-
 ✔ Apoio mútuo
-
 ✔ Amor verdadeiro
 
 Status final:
-
 BUILD SUCCESSFUL
-
 `;
 
 let i = 0;
