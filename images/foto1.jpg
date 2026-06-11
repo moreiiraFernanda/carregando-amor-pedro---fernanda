@@ -1,1 +1,13 @@
+<section>
 
+<h2>Nossas Memórias</h2>
+
+<div class="gallery">
+
+<img src="images/foto1.jpg">
+<img src="images/foto2.jpg">
+<img src="images/foto3.jpg">
+
+</div>
+
+</section>
