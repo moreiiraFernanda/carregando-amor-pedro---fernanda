@@ -113,3 +113,11 @@ output.innerHTML =
 
 }
 });
+
+const programador = "Pedro";
+const estudanteADS = "Fernanda";
+
+function construirFuturo() {
+    return "Juntos";
+}
+Enquanto você transforma ideias em código e eu aprendo a construir sistemas, percebo que estamos desenvolvendo o projeto mais importante das nossas vidas. Um projeto que não precisa de correções, apenas de novas versões cheias de sonhos, conquistas e amor.
