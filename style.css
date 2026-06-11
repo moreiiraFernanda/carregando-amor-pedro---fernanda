@@ -190,3 +190,33 @@ audio{
     color:#58a6ff;
     font-size:18px;
 }
+
+
+.timeline{
+    width:100%;
+    margin-top:30px;
+}
+
+.timeline h2{
+    margin-bottom:15px;
+    color:#58a6ff;
+}
+
+.commit{
+    display:block;
+    width:100%;
+    background:#161b22;
+    margin-bottom:10px;
+    padding:12px;
+    border-radius:8px;
+}
+
+section{
+    width:100%;
+    margin-top:30px;
+}
+
+audio{
+    width:100%;
+    margin-top:20px;
+}
