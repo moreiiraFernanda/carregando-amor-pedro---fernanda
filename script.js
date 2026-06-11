@@ -65,3 +65,19 @@ document
     });
 
 });
+
+function updateCounter() {
+
+    const startDate = new Date("2023-22-10");
+
+    const now = new Date();
+
+    const diff = now - startDate;
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+    document.getElementById("loveCounter").innerText =
+        days + " dias ❤️";
+}
+
+updateCounter();
